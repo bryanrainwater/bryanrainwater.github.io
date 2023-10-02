@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+# jekyll-latex
 
-You can use the [editor on GitHub](https://github.com/bryanrainwater/bryanrainwater.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+    <img src="./assets/jekyll_latex_cover_art.png">
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![GENERATOR](https://img.shields.io/badge/made_with-jekyll-blue.svg)
 
-### Markdown
+## Features
+- LaTeX typography
+- Abstract, theorems, proofs, and definitions
+- MathJax
+- Google Analytics
+- Profile photo
+- Compatible with Jekyll 3.x and Github Pages
+- Responsive layout
+- Supports Jekyll's SCSS preprocessor
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Installation
+```
+git clone https://github.com/ryanmcdermott/jekyll-latex.git
 
-```markdown
-Syntax highlighted code block
+bundle install
 
-# Header 1
-## Header 2
-### Header 3
+# Change all relevant settings for your site in _config.yml
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+bundle exec jekyll serve --watch
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Credits
 
-### Jekyll Themes
+Based on the amazing work below:
+- https://github.com/heiswayi/the-plain
+- https://github.com/vincentdoerig/latex-css
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bryanrainwater/bryanrainwater.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Licenses
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. This project: MIT
+1. The Plain (of which this is based): MIT
+1. Latex CSS: MIT
